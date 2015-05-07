@@ -41,12 +41,17 @@ Requirements
 
 Installation
 =========
-
-* Open Eclipse Luna (4.4)
-* Go to: ```Help > Eclipse Marketplace...```
-* Search for ```antlr```
-* Choose ```ANTLR 4 IDE``` and click ```Install```
-
+1. Install XText 2.7.3
+  1. Go to ```Help > Install New Software...```
+  2. Enter "http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/" in the ```Work With``` textbox
+  3. Hit Enter and wait for the list to load (this will take a few moments)
+  4. Expand the Xtext and check "Xtext Complete SDK" version "2.7.3v*" (Xtext 2.8.* may cause errors)
+  5. Click ```Next``` and follow the steps
+2. Install ANTLR 4 IDE
+  1. Go to: ```Help > Eclipse Marketplace...```
+  2. Search for ```antlr```
+  3. Choose ```ANTLR 4 IDE```
+  4. Click ```Install```
 
 Manual Installation
 =========
